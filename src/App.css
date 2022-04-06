@@ -1,0 +1,51 @@
+body,html{
+  background-color: #282c34;
+  color: #fff;
+  padding: 0 15px 10px;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.upload-file label {
+  margin-right: 15px;
+}
+.tabs-wrapper {
+  margin-top: 30px;
+}
+
+.jobcat table {
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  color: #000;
+  background: #FFF
+}
+.jobcat table th {
+  padding: 3px 15px;
+  text-transform: capitalize;
+}
+.jobcat table tbody tr:nth-child(even) {
+  background: #ccc;
+}
+.jobcat table td {
+  font-size: 80%;
+  padding: 3px 15px;
+  border: 1px solid #ccc;
+}
+.jobcat table tbody tr:hover {
+  background-color: yellow;
+}
+.tabs-wrapper button {
+  padding: 5px;
+  margin-top:10px;
+  border: none;
+  border-radius: 3px;
+}
