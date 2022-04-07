@@ -9,8 +9,7 @@
 /coverage
 
 # production
-# allow these so she can run the reports from github.com directly (free hosting!)
-#/build
+/build
 
 # misc
 .DS_Store
