@@ -14,7 +14,6 @@ const drawHeaderRow = (row) => {
 			<th>Service</th>
 			<th>Hours</th>
 			<th>Billable</th>
-			<th>Status</th>
 			<th>Notes</th>
 		</tr>
 	);
@@ -34,7 +33,6 @@ const drawDataRow = (row, idx) => {
 			<td>{row.service}</td>
 			<td>{row.hours}</td>
 			<td>{row.billable}</td>
-			<td>{row.approved}</td>
 			<td>{row.notes}</td>
 		</tr>
 	);

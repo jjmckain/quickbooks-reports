@@ -118,10 +118,10 @@ function App() {
 		console.log(`${rows.length} rows match jobcode ${jobcode}`);
 
 		const txtrows = [];
-		txtrows.push(`Date,Day,Name,Service,Hours,Billable,Status,Notes\r\n`);
+		txtrows.push(`Date,Day,Name,Service,Hours,Billable,Notes\r\n`);
 		rows.forEach((r) =>
 			txtrows.push(
-				`${r.date},${r.day},"${r.name}","${r.service}",${r.hours},"${r.billable}","${r.approved}","${r.notes}"\r\n`
+				`${r.date},${r.day},"${r.name}","${r.service}",${r.hours},"${r.billable}","${r.notes}"\r\n`
 			)
 		);
 		promptFile(`${jobcode} Timesheet.csv`, txtrows.join(''));
